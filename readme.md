@@ -1,95 +1,134 @@
 
-Smart Contact Manager - Project README
+
+**##Smart Contact Manager - Project README**
 
 Project Overview
 
 Smart Contact Manager is a backend application developed to help manage contacts smartly. Built using Java, Spring Boot, MySQL, and Cloudinary, this application offers advanced functionalities for user and contact management, security, and efficient backend processing.
 
-Features
+**Features**
 
-User Management
+ - User Management
+   
+ - Signup: Backend logic for user registration with field validation and
+   bug fixes.
 
-Signup: Backend logic for user registration with field validation and bug fixes.
+   
+   
 
-Login:
+ - Login:
+          Username and password authentication.
+          Third-party login integration with Google and GitHub.
 
-Username and password authentication.
+   
+   
 
-Third-party login integration with Google and GitHub.
+ - Spring Security configuration with database integration.
 
-Spring Security configuration with database integration.
+   
 
-Logged-In User Management:
+   
+   
 
-Secure routes for authenticated users.
+ - Secure routes for authenticated users.
 
-Admin route management.
+   
+  
+   
 
-Custom responses for logged-in users.
+ - Custom responses for logged-in users.
 
-Admin Dashboard
+   
 
-Fully functional backend logic for managing application data and user interactions.
+   
+  
 
-Contact Management
+ - Fully functional backend logic for managing application data and user
+   interactions.
 
-Add Contact Form:
+  
 
-Validation and user feedback messages.
+ - Contact Management
 
-File upload functionality with image storage in Cloudinary.
+   
 
-Custom validation for file types and sizes.
+ - Add Contact Form:
 
-Contact Module:
+   
+  
 
-Full CRUD operations for contacts.
+ - Validation and user feedback messages.
 
-Pagination tutorial completed.
+   
+  
 
-Search implementation with filters across multiple fields.
+ - File upload functionality with image storage in Cloudinary.
 
-AJAX-based detail view logic for contacts.
+   
+  
 
-Contact deletion with alerts.
+ - Custom validation for file types and sizes.
 
-Contact updates, including image updates and validation fixes.
+   
+   
 
-Theming and Responsiveness
+ - Contact Module:
 
-Backend support for dynamic theme switching and responsive features.
+   
+   
 
-Error Handling and Validation
+ - Full CRUD operations for contacts.
 
-Form Processing:
+   
+ 
 
-Effective error handling mechanisms.
+ - Pagination for the contacts.
 
-Use of Bean Validation for form fields.
+   
+   
 
-Simplified error management strategies.
+ - Search implementation with filters across multiple fields.
 
-Custom Validation: Implementation of custom validators for specific requirements.
+   
+ 
+  
 
-Additional Functionalities
+ - Contact deletion with alerts.
 
-Uploading Images: Secure handling and storage of images on Cloudinary.
+   
+   
 
-Secure Routes: Implementation of route security with Spring Security.
+ - Contact updates, including image updates and validation fixes.
 
-Pagination and Search:
+   
+  
+   
+   
 
-Efficient pagination for large datasets.
+ - Error Handling and Validation
 
-Search with multiple field support and seamless integration with pagination.
+  
+   
+ 
 
-Technologies Used
+ - Use of Bean Validation for form fields.
 
-Backend: Java, Spring Boot
+   
+   
+   
+   
 
-Database: MySQL
+**Technologies Used**
 
-File Storage: Cloudinary
+ - Backend: Java, Spring Boot
+   
+  
 
-Authentication: Spring Security, Google OAuth, GitHub OAuth
+ - Database: MySQL
+          
 
+ - File Storage: Cloudinary
+
+       
+
+ - Authentication: Spring Security, Google OAuth, GitHub OAuth
